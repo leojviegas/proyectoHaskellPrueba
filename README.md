@@ -1,7 +1,7 @@
 # pdp-proyecto-haskell-prueba
 
-## subtitulo
+## subtitulo con ##
 
-### otro subtitulo
-
+### otro subtitulo con ###
+#### otro subtitulo mas, con ####
 probando dar formato al readme.md
