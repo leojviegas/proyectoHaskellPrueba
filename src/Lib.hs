@@ -6,4 +6,4 @@
 -} 
 
 esExceso :: Int -> Bool
-esExceso velocidad = velocidad > 60
+esExceso velocidad = velocidad > 130
