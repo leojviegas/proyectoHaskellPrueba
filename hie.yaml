@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "proyecto-haskell-prueba-dos:lib"
+
+    - path: "./test"
+      component: "proyecto-haskell-prueba-dos:test:proyecto-haskell-prueba-dos-test"

@@ -1,7 +1,7 @@
-# pdp-proyecto-haskell-prueba
+# ejercicio-alumno
 
-## subtitulo con 2 numerales
+## Integrantes
 
-### otro subtitulo con 3 numerales, ###
-#### otro subtitulo mas, con 4 numerales
-probando dar formato al readme.md
+- integrante1 (usuario github)
+- integrante2 (usuario github)
+...
