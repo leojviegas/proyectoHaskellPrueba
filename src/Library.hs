@@ -13,10 +13,18 @@ esExceso :: Number -> Bool -- nombreDeLaFuncion :: DOMINIO(tipoDatoEntrante ) ->
 esExceso velocidad = velocidad > limiteVelocidad
 
 valorMulta velocidad -- acá hay un '=' implícito, lo de abajo es una funcion por partes: 
-    | esExceso velocidad = (velocidad - limiteVelocidad) * 1000 
+    | esExceso velocidad = velocidad * 1000 
     | otherwise = 0;
     {-al llamar a la funcion valorMulta con el valor 150, se hace valorMulta(150), y luego
     evalua la 1ra parte de la funcion: exExceso(150) --> como sí lo es, esExceso vale TRUE,
     y como vale TRUE, valorMulta va a valer lo que sea que esté luego del "TRUE ="  -}
 
-    
+    puntosDeDescuento valor
+    | valor > 150000 = 10
+    | valor > 100000 = 5
+    | otherwise = 0
+
+
+
+puntosPorVelocidad velocidad=
+    (puntosDeDescuento . valorMulta) velocidad
