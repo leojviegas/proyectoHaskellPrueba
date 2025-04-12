@@ -1,7 +1,7 @@
 # pdp-proyecto-haskell-prueba
 
-## subtitulo con ##
+## subtitulo con 2 numerales
 
-### otro subtitulo con ###
-#### otro subtitulo mas, con ####
+### otro subtitulo con 3 numerales, ###
+#### otro subtitulo mas, con 4 numerales
 probando dar formato al readme.md
